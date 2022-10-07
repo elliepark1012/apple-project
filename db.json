@@ -1,0 +1,197 @@
+{
+	"items": [{
+			"id": 1,
+			"name": "Iphone XR",
+			"image": "https://c1.neweggimages.com/ProductImageCompressAll1280/75-113-459-S05.jpg",
+			"price": 999,
+			"spec": "6.1-inch Super Retina XDR display with ProMotion for a faster, more responsive feel Cinematic mode adds shallow depth of field and shifts focus automatically in your videos",
+			"reviews": [{
+					"ratings": 3.4,
+					"comments": "The phone is perfectly functional, the screen came with one minor scratch, and the back is.. very scratched, but I dont really care however since I am using a screen protector and case. The phone came with 91% battery life which is what you can expect, and everything is perfectly functional. Would recommend if you dont mind a few scratches which is only cosmetic condition."
+				},
+				{
+					"ratings": 3.8,
+					"comments": "The phone is real and scratch free, would defenitly be a great purchase if it werent for all the cons it has"
+				},
+				{
+					"ratings": 4.2,
+					"comments": "Works great no scratches I'm happy"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"name": "Iphone 13",
+			"image": "https://m.media-amazon.com/images/I/61sDyXAepuL._FMwebp__.jpg",
+			"price": 999,
+			"spec": "6.1-inch Super Retina XDR display with ProMotion for a faster, more responsive feel Cinematic mode adds shallow depth of field and shifts focus automatically in your videos",
+			"reviews": [{
+					"ratings": 4.7,
+					"comments": "Paying over a thousand is not practical. Apple’s products are always good."
+				},
+				{
+					"ratings": 4.8,
+					"comments": "It is the best phone I have ever had."
+				},
+				{
+					"ratings": 1.2,
+					"comments": "The phones dialing feature has tons one one-touch functionality. When you accidentally redial a robo spam caller you activate tons of additional robo-calling. I tried to post the issue in the Apple forum, however, negative feedback is classified as ",
+					"not constructive": "so there is no way to complain about the feature.It 's been that way for years so I highly recommend you avoid the iPhone unless you love getting robo spam calls."
+				}
+			]
+		},
+		{
+			"id": 3,
+			"name": "Iphone 12",
+			"image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-finish-unselect-gallery-1-202207_GEO_US?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1662129048006",
+			"price": 599,
+			"spec": "Super Retina XDR display · 6.1 inch (diagonal) all screen OLED display · HDR display",
+			"reviews": [{
+					"ratings": 4.2,
+					"comments": "5G support, a new striking design, improved cameras and four models all add up to make the iPhone 12 an absolute unit.."
+				},
+				{
+					"ratings": 4.0,
+					"comments": "The iPhone 12 sports a gorgeous design, full 5G support, great cameras and strong performance. However, the limited base storage is a drawback even at its new reduced price."
+				},
+				{
+					"ratings": 4.3,
+					"comments": "It’s difficult to find fault with the iPhone 12, but Android phones still have the edge on value"
+				}
+			]
+		},
+        {
+			"id": 4,
+			"name": "Iphone 14",
+			"image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-14-finish-unselect-gallery-1-202209_GEO_US?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1661438896697",
+			"price": 999,
+			"spec": "Dynamic Island (A new way to interact with iPhone) · Emergency SOS via satellite  ·  Crash Detection",
+			"reviews": [{
+					"ratings": 2.7,
+					"comments": "Apple is worried about upgrade when Theys should be producing a good product. They should not have the number of recalls at customer's expense. This is NOT the days of Tim Cook. Apple needs to SLOW down and get it right the first time."
+				},
+				{
+					"ratings": 1.8,
+					"comments": "Huge problems if you’re not in a 5g area. Bluetooth disconnects randomly and often. You will be very frustrated with this phone."
+				},
+				{
+					"ratings": 5.0,
+					"comments": "It’s the best and a cheap option on the market considering the pro max is 1100 so i love it! Let’s go iphoneeeeee!"
+				}
+			]
+		},
+        {
+			"id": 5,
+			"name": "MacBook Air",
+			"image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-space-gray-select-201810?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1633027804000",
+			"price": 999,
+			"spec": "8-Core CPU / 7-Core GPU / 8GB Unified Memory / 256GB SSD Storage",
+			"reviews": [{
+					"ratings": 4.1,
+					"comments": "Perfect size to carry anywhere! I love this small laptop. The screen quality is great and touch screen is easy to use!"
+				},
+				{
+					"ratings": 4.8,
+					"comments": "Light, fast, and intuitive...happy with the product (disclosure: I'm an Apple fan)"
+				},
+				{
+					"ratings": 5.0,
+					"comments": "This laptop served me extremely well for more than six years. It is depandable and fun. Storage was the only downside - as a photographer, I struggled with the 512 GB that was available at the time."
+				}
+			]
+		},
+        {
+			"id": 6,
+			"name": "MacBook Pro",
+			"image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp16-spacegray-select-202110?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1632788574000",
+			"price": 2499,
+			"spec": "10-Core CPU / 16-Core GPU / 16GB Unified Memory / 512GB SSD Storage¹",
+			"reviews": [{
+					"ratings": 4.8,
+					"comments": "This was ordered to replace my wife's laptop and the 8 year old MacBook is dated, the 2021 Macbook's are very good. The service and product were very good."
+				},
+				{
+					"ratings": 4.7,
+					"comments": "Using it for couple of months. Very good performance."
+				},
+				{
+					"ratings": 5.0,
+					"comments": "Very easy to transfer over all the files from the MacBook Pro 15. Much lighter and Keyboard has a back light for the keys. So far no problems and I have been using it for around 2 weeks."
+				}
+			]
+		},
+        {
+			"id": 7,
+			"name": "iMac",
+			"image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/imac-24-blue-cto-hero-202104?wid=1254&hei=1132&fmt=jpeg&qlt=90&.v=1617479508000",
+			"price": 1299,
+			"spec": "Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores, 7-core GPU, and 16-core Neural Engine",
+			"reviews": [{
+					"ratings": 4.9,
+					"comments": "Love it! I uses my iMac to edit sports highlights and hype videos and love it. I was using my apple laptop before and it is a huge difference and makes love so much easier. I also really wanted it in green and could not find it anywhere else online. Shipping was also really quick and was packaged really well."
+				},
+				{
+					"ratings": 5.0,
+					"comments": "Fantastic new Imac 24. Much faster than my 2017 IMAC. I purchased the Blue one. Great job Apple. I have a friend that is still using an IMac from 2009 and it still works; OS is High Sierra. 5 stars on the product and would recommend it."
+				},
+				{
+					"ratings": 5.0,
+					"comments": "Decided to get the imac after my old macbook started experiencing performance issues and so far this computer has been great. I mostly use it for programming and other daily tasks but haven't had any issues so far."
+				}
+			]
+		},
+        {
+			"id": 8,
+			"name": "Apple Watch Ultra",
+			"image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MQE53ref_VW_34FR+watch-49-titanium-ultra_VW_34FR_WF_CO+watch-face-49-alpine-ultra_VW_34FR_WF_CO?wid=1400&hei=1400&trim=1%2C0&fmt=p-jpg&qlt=95&.v=1660713635480%2C1660927566964%2C1660927563656",
+			"price": 799,
+			"spec": "The aerospace-grade titanium case strikes the perfect balance of weight, durability, and corrosion resistance.",
+			"reviews": [{
+					"ratings": 3.9,
+					"comments": "I love all the features of this watch and the beautiful display, but it is not for me. I don’t like the shape of the watch or the thickness of it. It is more about the aesthetics than the comfort for me. I did find it to be comfortable overall. It was a little uncomfortable to sleep in because of its size."
+				},
+				{
+					"ratings": 5.0,
+					"comments": "I really love this watch. The features and the battery life are great. I have small wrist and it looks fine. Very lightweight for its size. I bought the alpine loop and it’s a little tricky to put on but it’s the most secure bad I have owned."
+				},
+				{
+					"ratings": 5.0,
+					"comments": "Apple Watch Ultra is very high quality, battery life is excellent. They claim 36 hrs but I can easily go 48 hrs with regular use. I’ve owned every Apple Watch except the series 8. You will not be disappointed"
+				}
+			]
+		},
+        {
+			"id": 9,
+			"name": "Apple Watch Hermes",
+			"image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MPKF3_VW_34FR+watch-41-stainless-silver-cell-hermes8s_VW_34FR_WF_CO+watch-face-41-hermes8s-complex-noirprint_VW_34FR_WF_CO?wid=1400&hei=1400&trim=1%2C0&fmt=p-jpg&qlt=95&.v=1660776584926%2C1663623201568%2C1660949557612",
+			"price": 1759,
+			"spec": "The stainless steel case is durable and polished to a shiny, mirror-like finish.",
+			"reviews": [{
+					"ratings": 5.0,
+					"comments": "EXCELENT HERMES MEANS QUALITY"
+				}
+			]
+		},
+        {
+			"id": 10,
+			"name": "AirPods (3rd generation) with MagSafe Charging Case",
+			"image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MME73?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1632861342000",
+			"price": 179,
+			"spec": "Personalized Spatial Audio with dynamic head tracking",
+			"reviews": [{
+					"ratings": 3.9,
+					"comments": "It’s apple so you know it’s quality. Sound is amazing and battery lasts a very long time. One complaint, they don’t fit in my ear as well as the 2nd generation does. These slowly work their way loose in my ears and I’m constantly pushing them back in. 2nd gen stay in my ear perfectly."
+				},
+				{
+					"ratings": 4.3,
+					"comments": "I like the fact it has good audio like the volume depends how high ya go on your phone but works wonderfully! No problem what do ever ;3 yet lol"
+				},
+				{
+					"ratings": 4.2,
+					"comments": "Upgraded to the AirPods 3 from the 1st generation AirPods. I LOVE the spatial audio feature, and the battery lasts for days. The sound quality is way better than the original AirPods with the spatial audio on. These don’t have noise cancellation like the pros do, but I don’t miss it. Got these on sale, so they were a good value."
+				}
+			]
+		}
+
+	]
+}

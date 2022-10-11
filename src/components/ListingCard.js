@@ -1,42 +1,17 @@
-import React, {useState} from 'react';
+import React from "react";
+import LightBox from "./LightBox";
 
-function ListingCard( {listing, children, Wrapper = 'div'} ) {
-
-    const [ isOpen, setIsOpen ] = useState(false);
-
-    const toggleIsOpen = () => {
-        setIsOpen(!isOpen)
-    };
-    
-    const main = (
+function ListingCard( { listing } ) {
+    return (
         <div key={listing.id} className="cards-containers">
             <div className="cards-contents">
                 <h1>{listing.name}</h1>
+                <LightBox listing={listing}>
                 <img className="card-image" src={listing.image} />
+                </LightBox>
             </div>
         </div>
-        )
+        )     
+}
 
-    const lightbox = (
-                <div key={listing.id} className="modal-content">
-                    <h1>{listing.name}</h1>
-                    <img className="card-image" src={listing.image} />
-                    <h3>{listing.price}</h3>
-                    {listing.reviews.map((review) =>  (
-                        <div key={review.comment}>
-                            <h5>{review.ratings}</h5>
-                            <h6>{review.comment}</h6>
-                         </div>))}
-                    </div>
-                    )  
-
-    return (
-        <Wrapper>
-            {children}
-            {lightbox}
-        </Wrapper>
-    );
-};
-
-export default ListingCard;
-
+export default ListingCard

@@ -138,3 +138,53 @@ html {
       width: 350px;
       margin-bottom: 0px;
     }
+
+.modal-content {
+  padding-top: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  cursor: pointer;
+  z-index : 100;
+  overflow: scroll;
+}
+
+.modal-content img {
+  width: 450px;
+  height: 450px;  
+  border: rgb(126, 122, 122);
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 20%;
+  padding: 20px;
+}
+
+.modal-top {
+  font-size: 50px;
+}
+
+.review {
+ padding-left:  150px;
+ padding-right: 150px;
+ padding-bottom: 150px;
+}
+
+.review > h2 {
+  font-size: 45px;
+}
+
+.review-rating {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.review-comments {
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 200;
+}

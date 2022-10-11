@@ -15,7 +15,6 @@ function App() {
       fetch("http://localhost:3000/listings")
       .then((r) => r.json())
       .then((listings) => {
-        console.log(listings)
         setListings(listings)
       })
     },[])
@@ -26,6 +25,7 @@ function App() {
           <NavBar />
           <Header setSearchText={setSearchText} />
           <ListingsContainer listings={searchFilteredItems} />
+
       </div>
     );
 }

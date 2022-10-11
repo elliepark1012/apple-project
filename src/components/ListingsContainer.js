@@ -3,7 +3,6 @@ import ListingCard from "./ListingCard";
 
 function ListingsContainer({ listings }) {
 
-
     return (
         <main>
             <ul className="cards">

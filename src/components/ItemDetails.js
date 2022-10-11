@@ -2,7 +2,6 @@ import React from "react";
 
 function ItemDetails({ items }) {
 
-  console.log(items)
     if (items.length === 0) return null;
   return (
     <div className="cards" > 

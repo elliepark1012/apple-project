@@ -1,31 +1,31 @@
 import React, { useState, useEffect }  from "react";
 import '../app.css';
+import Header from "./Header";
 import NavBar from "./NavBar";
-import SearchBar from "./SearchBar";
-import ItemCards from "./ItemCards";
-import ItemDetails from "./ItemDetails";
-import ItemReviewForm from "./ItemReviewForm";
+import ListingsContainer from "./ListingsContainer";
 
 
 
 function App() {
-  const [items, setItems] = useState([])
+  const [listings, setListings] = useState([])
+  const [searchText, setSearchText] = useState("")
+
 
   useEffect(() => {
-      fetch("http://localhost:3000/items")
+      fetch("http://localhost:3000/listings")
       .then((r) => r.json())
-      .then((items) => {
-        setItems(items)
+      .then((listings) => {
+        console.log(listings)
+        setListings(listings)
       })
     },[])
-  
+    
+    let searchFilteredItems = listings.filter(listing=> listing.name.toLowerCase().includes(searchText.toLowerCase()))
   return (
       <div className="App">
-         <NavBar />
-         <SearchBar />
-         <ItemCards items={items} />
-         <ItemDetails items={items} /> 
-         <ItemReviewForm /> 
+          <NavBar />
+          <Header setSearchText={setSearchText} />
+          <ListingsContainer listings={searchFilteredItems} />
       </div>
     );
 }

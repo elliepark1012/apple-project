@@ -1,5 +1,6 @@
 {
-	"items": [{
+	"listings": [
+				{
 			"id": 1,
 			"name": "Iphone XR",
 			"image": "https://c1.neweggimages.com/ProductImageCompressAll1280/75-113-459-S05.jpg",

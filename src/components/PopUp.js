@@ -5,13 +5,11 @@ function PopUp({listing, toggle} ) {
     const handleClick = () => {
         return (toggle());
     };
-    console.log(listing)
 
 const arrAvg = arr => {return arr.reduce((a, b) => a + b, 0) /arr.length};
     const getAvgRating =
     listing.reviews.length > 0 ? 
     arrAvg(listing.reviews.map(review => review.ratings)).toFixed(2) : 0;
-    console.log(getAvgRating)
 
         return (
             <div className="modal">
@@ -39,7 +37,6 @@ const arrAvg = arr => {return arr.reduce((a, b) => a + b, 0) /arr.length};
                       onClick={handleClick}>
                         &times;
                 </span>
-                <p>Sunnyyyyyy dayyy</p>
               </div>
           </div>
         );

@@ -32,7 +32,7 @@ const styles = {
     }
 }
 
-function ReviewForm( { onAddReview }) {
+function ReviewForm() {
     const stars = Array(5).fill(0);
     const [currentValue, setCurrentValue] = useState(0);
     const [hoverValue, setHoverValue] = useState(undefined);
@@ -40,6 +40,7 @@ function ReviewForm( { onAddReview }) {
 
     const handleClick = value => {
         setCurrentValue(value)
+        
     };
 
     const handleMouseOver = value => {
@@ -70,11 +71,11 @@ function ReviewForm( { onAddReview }) {
 
 
     return (
-        <form>
         <div style={styles.container}>
             <h2>Review Section</h2>
             <div style={styles.stars}>
               {stars.map((_, index) => {
+                console.log(index)
                 return (
                     <FaStar
                         key={index}
@@ -83,10 +84,12 @@ function ReviewForm( { onAddReview }) {
                             marginRight: 10,
                             cursor: "pointer"
                         }}
-                        colozzr={(hoverValue || currentValue) > index ? colors.orange : colors.grey} 
+                        color={(hoverValue || currentValue) > index ? colors.orange : colors.grey} 
                         onClick={() => handleClick(index + 1)}
+                        
                         onMouseOver={() => handleMouseOver(index + 1)}
                         onMouseLeave={handleMouseLeave}
+                        
                     />
                 )
               })}  
@@ -98,7 +101,6 @@ function ReviewForm( { onAddReview }) {
             <button 
                 style={styles.button}>Submit</button>
         </div>
-        </form>
     )
 }
 

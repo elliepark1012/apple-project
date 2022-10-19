@@ -1,7 +1,7 @@
 import React from "react";
 import ListingCard from "./ListingCard";
 
-function ListingsContainer({ listings, handleNewReview }) {
+function ListingsContainer({ listings }) {
 
     return (
         <main>
@@ -10,7 +10,7 @@ function ListingsContainer({ listings, handleNewReview }) {
                     <ListingCard 
                         key={listing.id} 
                         listing={listing}
-                        handleNewReview={handleNewReview} />
+                        />
                 ))}
             </ul>
         </main>

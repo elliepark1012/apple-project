@@ -3,9 +3,6 @@ import '../app.css';
 import Header from "./Header";
 import NavBar from "./NavBar";
 import ListingsContainer from "./ListingsContainer";
-import ReviewForm from "./ReviewForm";
-
-
 
 function App() {
   const [listings, setListings] = useState([])
@@ -20,16 +17,16 @@ function App() {
       })
     },[])
     
-    function handleNewReview(newReview) {
-      setListings([...listings, newReview]);
-    }
+    // function handleNewReview(newReview) {
+    //   setListings([...listings, newReview]);
+    // }
 
-  let searchFilteredItems = listings.filter(listing=> listing.name.toLowerCase().includes(searchText.toLowerCase()))
+  let searchFilteredItems = listings.filter(listing=> listing?.name?.toLowerCase().includes(searchText.toLowerCase()))
   return (
       <div className="App">
           <NavBar />
           <Header setSearchText={setSearchText} />
-          <ListingsContainer listings={searchFilteredItems} handleNewReview={handleNewReview} />
+          <ListingsContainer listings={searchFilteredItems}  />
 
       </div>
     );

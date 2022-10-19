@@ -36,7 +36,7 @@ function ReviewForm( { onAddReview }) {
     const stars = Array(5).fill(0);
     const [currentValue, setCurrentValue] = useState(0);
     const [hoverValue, setHoverValue] = useState(undefined);
-    const [comments, setComments] = useState("");
+    // const [comments, setComments] = useState("");
 
     const handleClick = value => {
         setCurrentValue(value)
@@ -50,27 +50,27 @@ function ReviewForm( { onAddReview }) {
         setHoverValue(undefined)
     }
 
-    function handleSubmit(e) {
-        e.preventDefault();
-        const reviewData = {
-            ratings : currentValue,
-            comments : comments
-        };
-        console.log(reviewData)
-        fetch("http://localhost:3000/listings", {
-        method: "POST",
-        headers: {
-            "Content-Type" : "application/json",
-        },
-        body:JSON.stringify(reviewData),
-    })
-        .then((r) => r.json())
-        .then((newReview) => onAddReview(newReview));
-    };
+    // function handleSubmit(e) {
+    //     e.preventDefault();
+    //     const reviewData = {
+    //         ratings : currentValue,
+    //         comments : comments
+    //     };
+    //     console.log(reviewData)
+    //     fetch("http://localhost:3000/listings", {
+    //     method: "POST",
+    //     headers: {
+    //         "Content-Type" : "application/json",
+    //     },
+    //     body:JSON.stringify(reviewData),
+    // })
+    //     .then((r) => r.json())
+    //     .then((newReview) => onAddReview(newReview));
+    // };
 
 
     return (
-        <form onSubmit={handleSubmit}>
+        <form>
         <div style={styles.container}>
             <h2>Review Section</h2>
             <div style={styles.stars}>

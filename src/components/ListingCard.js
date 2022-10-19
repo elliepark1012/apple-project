@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import PopUp from "./PopUp"
 
-function ListingCard( { listing, handleNewReview } ) {
+function ListingCard( { listing } ) {
     const [seen, setSeen] = useState(false)
 
     const togglePop = () => {
@@ -19,7 +19,7 @@ function ListingCard( { listing, handleNewReview } ) {
                 {seen? <PopUp 
                             listing={listing} 
                             toggle={togglePop} 
-                            onAddItem={handleNewReview}
+                            
                             /> : null}
             </div>
         </div>

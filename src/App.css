@@ -4,8 +4,8 @@ html {
 }
 
 .card-image {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     left: 116px;
     top: 44px;
     border-radius: 10px 10px 0px 0px;
@@ -111,25 +111,14 @@ html {
     .cards-contents {
       position: relative;
       display: block;
-      height: 400px;
-      width: 480px;
+      height: 350px;
+      width: 350px;
       border-radius: calc(var(--curve) * 1px);
       overflow: hidden;
       text-decoration: none;
       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
     
-  form {
-      margin: 0.5rem;
-      display: flex;
-      flex-direction: column;
-  }
-  
-  input, select {
-      width: 100%; 
-      margin-bottom: 1rem;   
-  }
-
   header {
     display: "inline-flexbox";
   }
@@ -146,7 +135,6 @@ html {
   left: 0;
   right: 0;
   bottom: 0;
-  height: 100vh;
   width: 100vw;
   background-color: white;
   cursor: pointer;
@@ -154,7 +142,7 @@ html {
   overflow: scroll;
 }
 
-.modal-content img {
+.modal-image {
   width: 450px;
   height: 450px;  
   border: rgb(126, 122, 122);
@@ -171,11 +159,11 @@ html {
 .review {
  padding-left:  150px;
  padding-right: 150px;
- padding-bottom: 150px;
 }
 
 .review > h2 {
   font-size: 45px;
+  font-style: italic;
 }
 
 .review-rating {
@@ -187,4 +175,25 @@ html {
   font-size: 25px;
   font-style: italic;
   font-weight: 200;
+}
+
+.review-averating {
+  font-size: 60px;
+  justify-content: center;
+  background: #f5f5f7;
+  border-radius: 4px;
+  padding: 14px 0;
+}
+
+.close {
+  z-index: 100;
+  position: fixed;
+  cursor: pointer;
+  font-size: 50px;
+  left: 1200px;
+  top: 100px;
+  background: #f5f5f7; 
+  padding-left: 10px;
+  padding-right: 10px;
+
 }
